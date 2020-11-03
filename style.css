@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+
+.header{
+    
+    background: rgba(0,0,0,0.5);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.warp-container{
+    
+    width: 80%;
+    margin: 0px auto;
+}
+.gp{
+    width: 270px;
+    height: 40px;
+    color: #fff;
+    padding: 10px 0px;
+    float: left;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    
+}
+
+.menu ul li{
+  list-style: none;
+  display: inline;
+  color: #fff;
+ 
+  font-size: 18px;
+  padding: 20px;
+  line-height: 1.5;
+
+}
+.menu-a ul li{
+    list-style: none;
+  display: inline;
+  color: #fff;
+ 
+  font-size: 10px;
+  padding: 10px;
+  line-height:0.5;
+
+}
+.menu-a ul a{
+    text-decoration: none;
+}
+.menu ul a{
+    text-decoration: none;
+}
+.menu ul li:hover{
+   
+    color: gold;
+}
+.active{
+    color: gold;
+   
+}
+.wrapper-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 19%;
+    padding-bottom: 20%;
+    background: url(./hero-bg.jpg) 100% fixed;
+    background-size: cover;
+    background-position: center;
+}
+.get-btn:hover{
+    background: orange;
+}
+
+
+@media screen and (max-width:768px){
+    .header{
+        height: 50px;
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.7));
+    }
+    .header .gp{
+        height: 50px;
+        float: none;
+
+    }
+    .header.gp{
+        height: 30px;
+        width: 140px;
+        padding: 10px 20px;
+    }
+    .menu{
+        float: none;
+    }
+    .menu ul li{
+        display: block;
+        background: rgba(28,28,0.96);
+        padding: 2px;
+        font-size: 17px;
+        text-align: center;
+    }
+    .menu ul li:hover{
+        background: #2a2a2a;
+    }
+    .menu ul{
+        margin: 0px;
+    }
+    .warp-container{
+        width: 90%;
+    }
+}
+
+    
